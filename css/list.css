@@ -1,0 +1,177 @@
+html {
+  font-size: 40px;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  background-color: #e9f1f4;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: .325rem;
+}
+.search {
+  width: 25.6rem;
+  background-color: #8195a7;
+  padding: .4rem;
+}
+.search p {
+  float: left;
+  border-radius: .125rem;
+  padding: .25rem;
+  background-color: white;
+  position: relative;
+}
+.search input {
+  border: none;
+  height: 2.5rem;
+  color: #8195a7;
+  font-size: 1rem;
+}
+.search .from {
+  width: 8.1rem;
+  margin-right: .5rem;
+}
+.search .from input {
+  width: 6.2rem;
+  padding-left: 0.125rem;
+}
+.search .place {
+  width: 16.2rem;
+}
+.search .place input {
+  width: 14rem;
+  margin-left: .8rem;
+}
+.search .icon-right {
+  width: .4rem;
+  display: inline-block;
+  position: absolute;
+  top: 1.3rem;
+  right: .8rem;
+  min-width: 6px;
+}
+.search .icon-search {
+  width: .6rem;
+  display: inline-block;
+  position: absolute;
+  top: 1.3rem;
+  left: .4rem;
+  min-width: 9px;
+}
+.select-box {
+  width: 25.6rem;
+  background-color: #eeeeee;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.select-box .left,
+.select-box .right {
+  width: 50%;
+  float: left;
+  text-align: center;
+  line-height: 1;
+  font-size: 1rem;
+  color: #595959;
+}
+.select-box .left {
+  border-right: 1px solid #595959;
+}
+.select-box .left img {
+  width: .5rem;
+  margin-bottom: 0.15rem;
+  min-width: 12px;
+}
+.select-box .right img {
+  width: .4rem;
+  margin-bottom: 0.15rem;
+  min-width: 12px;
+}
+.list .text {
+  line-height: .9rem;
+  font-size: .8rem;
+  color: #5a5a5a;
+  padding-top: .25rem;
+  padding-bottom: 0.25rem;
+}
+.list {
+  padding-right: .25rem;
+  padding-left: .25rem;
+  box-sizing: border-box;
+}
+.list .left,
+.list .right {
+  float: left;
+}
+.list .left {
+  width: 7.4rem;
+}
+.list .left img {
+  width: 100%;
+}
+.list .right {
+  padding: .25rem;
+  position: relative;
+  width: 17.7rem;
+}
+.list li {
+  background-color: white;
+  margin-bottom: .125rem;
+  height: 5.58rem;
+}
+.list p {
+  width: 17.2rem;
+}
+.list .title {
+  color: #8195a7;
+  font-size: .8rem;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+.list .red {
+  color: #f92a22;
+}
+.list .free-go {
+  font-size: .55rem;
+  background-color: #8195a7;
+  color: #ffffff;
+  padding: .125rem;
+  float: left;
+}
+.list .price {
+  float: right;
+  color: red;
+  font-size: .8rem;
+  margin-right: 0.2rem;
+}
+.list i {
+  font-size: .35rem;
+  color: #8195a7;
+}
+.list .time {
+  color: #8195a7;
+  font-size: .55rem;
+  margin-top: 0.5rem;
+}
+.list .time span {
+  margin-right: 0.125rem;
+}
+.list .buy {
+  position: absolute;
+  top: 4rem;
+}
+.list .buy-btn {
+  float: right;
+  width: 3.5rem;
+  height: 1.2rem;
+  background-color: #8195a7;
+  color: #ffffff;
+  border: none;
+  font-size: 0.7rem;
+}
+.more {
+  width: 100%;
+  text-align: center;
+  font-size: .8rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}

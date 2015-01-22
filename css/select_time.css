@@ -1,0 +1,105 @@
+html {
+  font-size: 40px;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+}
+.header {
+  padding: .4rem .25rem;
+  width: 100%;
+  background-color: #f1f5f6;
+  font-size: 1rem;
+  text-align: center;
+}
+.header span {
+  line-height: 1rem;
+}
+.header .left,
+.header .right {
+  width: 50%;
+}
+.header .left {
+  border-right: 1px solid #b8b8b8;
+}
+.header .left span:first-child,
+.header .right span:first-child {
+  margin-right: .8rem;
+}
+.header .reduce,
+.header .plus {
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  background-color: #2eaffc;
+}
+.header .reduce {
+  margin-right: .5rem;
+}
+.header .plus {
+  margin-left: 0.5rem;
+}
+.header img {
+  width: 70%;
+}
+.go-time {
+  font-size: .8rem;
+  padding: .5rem;
+  text-align: left;
+}
+.calendar-box {
+  font-size: 1rem;
+  text-align: center;
+}
+.calendar-box .year-month {
+  text-align: center;
+  background-color: #eee;
+  padding: 0.5rem;
+}
+.calendar-box .calendar {
+  width: 25.6rem;
+}
+.calendar-box td {
+  width: 3.657rem;
+  height: 2rem;
+  vertical-align: middle;
+}
+.calendar-box .price {
+  display: block;
+  font-size: .6rem;
+  color: #f92a22;
+}
+.calendar-box .week td {
+  line-height: 1.5rem;
+  background-color: #eeeeee;
+}
+.calendar-box .past-day {
+  color: #959595;
+}
+.calendar-box .focus {
+  background-color: #8195a7;
+  color: #ffffff;
+}
+.calendar-box .focus .price {
+  color: #ffffff;
+}
+.footer {
+  height: 4rem;
+  margin-top: .25rem;
+  background-color: #fd9733;
+  color: white;
+  line-height: 4rem;
+  padding-left: .4rem;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.footer button {
+  background-color: #EA7C15;
+  width: 8rem;
+  border: none;
+  height: 4rem;
+  float: right;
+  font-size: 1.2rem;
+  color: #ffffff;
+  outline: none;
+}
