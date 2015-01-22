@@ -1,0 +1,158 @@
+html {
+  font-size: 40px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+}
+a {
+  color: #ffffff;
+}
+.container {
+  width: 100%;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content-box {
+  width: 25.6rem;
+  padding: 0.25rem 0;
+}
+.banner img {
+  width: 100%;
+}
+.left {
+  width: 12.8rem;
+  padding-right: .25rem;
+}
+.left .hot-now {
+  background-color: #f54d8f;
+}
+.left .price-tag {
+  background-color: #e54538;
+}
+.left .shop {
+  background-color: #19a4a3;
+}
+.left .card {
+  background-color: #5340d6;
+  margin-right: 0.25rem;
+}
+.left .contact {
+  background-color: #2c76e9;
+}
+.left .hot-now,
+.left .price-tag {
+  padding-right: .25rem;
+}
+.left .hot-now a,
+.left .price-tag a {
+  display: inline-block;
+  width: 100%;
+  height: 6.4rem;
+  line-height: 6.4rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.left .hot-now img,
+.left .price-tag img {
+  width: 20%;
+  margin-bottom: -0.5rem;
+}
+.left .price-tag {
+  margin-top: .38rem;
+}
+.left .card,
+.left .shop {
+  float: left;
+  width: 6.15rem;
+  margin-top: .41rem;
+}
+.left .card a,
+.left .shop a {
+  display: inline-block;
+  width: 6.4rem;
+  height: 6.4rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.left .card img,
+.left .shop img {
+  width: 40%;
+  margin-top: 1rem;
+}
+.left .card span,
+.left .shop span {
+  display: block;
+}
+.left .contact {
+  margin-top: .25rem;
+}
+.left .contact a {
+  display: inline-block;
+  width: 100%;
+  height: 6.4rem;
+  line-height: 6.4rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.left .contact img {
+  width: 20%;
+  margin-bottom: -0.5rem;
+}
+.right {
+  width: 12.8rem;
+}
+.right .sichuan {
+  background-color: #30c9fc;
+  margin-right: 0.2rem;
+}
+.right .country {
+  background-color: #93cf28;
+  margin-bottom: 0.4rem;
+}
+.right .foreign {
+  background-color: #fd7d33;
+  margin-right: 0.2rem;
+}
+.right .DIY {
+  background-color: #6826b5;
+}
+.right .sichuan,
+.right .country,
+.right .foreign,
+.right .DIY {
+  float: left;
+}
+.right .sichuan a,
+.right .country a,
+.right .foreign a,
+.right .DIY a {
+  display: inline-block;
+  width: 6.3rem;
+  height: 6.4rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.right .sichuan img,
+.right .country img,
+.right .foreign img,
+.right .DIY img {
+  width: 40%;
+  margin-top: 1rem;
+}
+.right .sichuan span,
+.right .country span,
+.right .foreign span,
+.right .DIY span {
+  display: block;
+}
+.right .site img {
+  height: 13rem;
+  margin-top: .4rem;
+}
+.left,
+.right {
+  margin-top: .25rem;
+  float: left;
+}
