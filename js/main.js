@@ -26,7 +26,7 @@ $(document).ready(function(){
     });
 
     if($('.characteristic').length>0){
-        touch.on('.title','tap',function(){
+        touch.on('.titles','tap',function(){
             if($(this).next().attr('isDis')=="true"){
                 $(this).next().css({
                     "display":"none"
